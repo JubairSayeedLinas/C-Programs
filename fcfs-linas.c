@@ -4,6 +4,7 @@
  * the program takes a list of processes and their burst time.
  * the output is a Grantt Chart in tabular format.
  */
+
 #include<stdio.h>
 
 int main(){
