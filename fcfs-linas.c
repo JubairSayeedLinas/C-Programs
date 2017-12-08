@@ -18,7 +18,7 @@ printf("enter the burst  time:\n");
     printf("P%d:",i+1);
     scanf("%d",&bt[i]);
       }
-
+printf("-----Gantt Chart-----\n");
  for(i=0;i<n;i++){
     t+=bt[i];
     if(i==0){
