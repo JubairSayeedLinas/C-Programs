@@ -10,8 +10,7 @@ printf("enter the burst  time:\n");
     for(i=0;i<n;i++){
     printf("P%d:",i+1);
     scanf("%d",&bt[i]);
-
-    }
+      }
 
  for(i=0;i<n;i++){
     t+=bt[i];
@@ -22,9 +21,5 @@ printf("enter the burst  time:\n");
     else
         printf(" %d--->%d\n",(t-bt[i]),t);
  }
-
-
-
-
 return 0;
 }
